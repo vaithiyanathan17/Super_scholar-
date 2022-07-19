@@ -1,0 +1,9 @@
+#counter_label{
+    display:block;
+    text-align:center;
+    font-size: 50px;
+}
+#counter_btn{
+    display:block;
+    text-align:center;
+}
