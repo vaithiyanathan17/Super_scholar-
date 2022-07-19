@@ -164,7 +164,7 @@ console.log(x);
 x = Math.ceil(x);
 console.log(x); 
 //    >>4
-x = Math.pow(x,2); this one accepts two parameters x is a value and y is a power 
+x = Math.pow(x,2); //this one accepts two parameters x is a value and y is a power 
 console.log(x); 
 //    >>9.8596
 x = Math.sqrt(x);
