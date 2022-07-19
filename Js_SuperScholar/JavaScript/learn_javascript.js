@@ -72,19 +72,20 @@ document.getElementById("p3").innerHTML = "student status " + student;
  */
 
 let students=35;
-// students = students+1;
-// students = students-2;
-// students = students*2;
-// students = students%2; reminder
-// students = students/2; quotient
+students = students+1;
+students = students-2;
+students = students*2;
+students = students%2; reminder
+students = students/2; quotient
 
 //the below code only for the previously assigned variable not for the new variable
+//shortcut methods for arithmetic operation
+students += 1;
+students -= 2;
+students *= 2;
+students /= 2;
+students %= 2; 
 
-// students += 1;
-// students -= 2;
-// students *= 2;
-// students /= 2;
-// students %= 2; shortcut methods for arithmetic operation
 
 //operator precedence
 // 1.parenthesis
@@ -92,15 +93,15 @@ let students=35;
 // 3. multiplication
 // 4. addition & subtraction
 
-// let result = 300-(32-2)*15+20/12;
-// console.log(result);
+let result = 300-(32-2)*15+20/12;
+console.log(result);
 
 // accepting user InputDeviceInfo
 // easy way with window prompt
 
 
-// let username = window.prompt("hey!! hey you!!  what's your name??");
-// console.log(username);
+let username = window.prompt("hey!! hey you!!  what's your name??");
+console.log(username);
 
 
 
@@ -154,32 +155,32 @@ console.log("circumference of the circle ",circumference," With the radius ",rad
 x = 3.14;
 y = -22;
 z = 1;
-// x = Math.round(x);
-// console.log(x); 
+x = Math.round(x);
+console.log(x); 
 //    >>3
-// x = Math.floor(x);
-// console.log(x); 
+x = Math.floor(x);
+console.log(x); 
 //    >>3
-// x = Math.ceil(x);
-// console.log(x); 
+x = Math.ceil(x);
+console.log(x); 
 //    >>4
-// x = Math.pow(x,2); this one accepts two parameters x is a value and y is a power 
-// console.log(x); 
+x = Math.pow(x,2); this one accepts two parameters x is a value and y is a power 
+console.log(x); 
 //    >>9.8596
-// x = Math.sqrt(x);
-// console.log(x);
+x = Math.sqrt(x);
+console.log(x);
 //    >>1.772004514666935
-// y = Math.abs(y);
-// console.log(y);
+y = Math.abs(y);
+console.log(y);
 //    >>22            turns negative to positive (i.e) absolutes the negative value
-// max = Math.max(x,y);
-// console.log(max);
+max = Math.max(x,y);
+console.log(max);
 //    >>3.14
-// min = Math.min(x,y,z);
-// console.log(min);
+min = Math.min(x,y,z);
+console.log(min);
 //    >>-22
-// let pi = Math.PI;
-// console.log(pi);
+let pi = Math.PI;
+console.log(pi);
 //    >>3.141592653589793
 
 // Trying pythagoras theorem
