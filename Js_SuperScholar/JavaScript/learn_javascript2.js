@@ -306,10 +306,13 @@ while(user_attempt<=2 || user_name=="" || user_name==null ){
     // if user_name given three times then the while becomes false 
     console.log(user_name)
     console.log(user_attempt<=2 || user_name=="" || user_name==null)
-
+    
     // if it is true then the statements executes again
 }
 
 // the above code ask you the username for three times if the below condition is true
 // while the user == 0,1,2 or user_name="" or user_name=null it won't accept
 // if the user gave his 3 username then all good. 
+
+
+
