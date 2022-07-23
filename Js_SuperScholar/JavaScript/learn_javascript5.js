@@ -206,6 +206,8 @@ function filter_undefined(element){
 let prices = [10,20,30,40,50];
 let payable = prices.reduce(sum);
 console.log(payable);
+//     >>150
+
 function sum(total,element){
     return total+element;   // total - accumulates the previous value
                             // and then adds it with the element
