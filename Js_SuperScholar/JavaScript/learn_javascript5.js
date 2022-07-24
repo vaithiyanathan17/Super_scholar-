@@ -176,7 +176,7 @@ function check_age(element){
    return element>=18;
 }
 
-arr = ['apple','mango','grape'];
+let arr = ['apple','mango','grape'];
 arr[5]="kiwi";
 console.log(arr);
 //     >>['apple', 'mango', 'grape', empty × 2, 'kiwi']
@@ -214,5 +214,36 @@ function sum(total,element){
 }
 
 // would like to include detailed explanation of array methods
+/*
+Accumulator: It accumulates the return values of the array.
+Current Value: Current element is the current value.
+Current Index: The index of the current element is the value of the current index.
+Source array: The array defined by the user for implementing reduce() method.
+*/
+
+//  arr.reduce(callback(accumulator, currentValue, currentIndex, array), initialValue)
+
+arr = [1,2,3,4];
+let result = arr.reduce(reducer,0);
+console.log(result);
+
+function reducer(accumulator,currentElement,currentIndex,array){
+    accumulator=currentElement+accumulator;
+    console.log(array[currentIndex]+" element");
+    console.log(currentIndex+" index");
+    return accumulator;
+}
+
+/*
+    >>  1 element
+        0 index
+        2 element
+        1 index
+        3 element
+        2 index
+        4 element
+        3 index
+        10
+*/
 
 
